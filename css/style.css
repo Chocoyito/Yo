@@ -29,6 +29,10 @@ body{
     flex-direction: column;
 }
 
+.flex-container-row{
+    display: flex;
+}
+
 .about-me{
 
     width: 480px;
@@ -41,5 +45,51 @@ body{
     & p{
         color: var(--blanco-grisaceo);
         font-size: 14px;
+        line-height: 24px;
+    }
+    
+    .curriculum{
+
+        & button{
+            background-color: transparent;
+            border: 2px solid white;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 12px;
+            width: 180px;
+            font-size: 14px;
+        }
+       
+        & button:hover{
+            background-color: white;
+            color: black;
+            transition: 0.3s;
+        }
+    }
+
+    .find-me{
+
+        gap: 15px;
+
+        .yo{
+            width: 30px;
+            height: auto;
+            border-radius: 20px;
+        }
+
+        .socials{
+
+            gap: 20px;
+            
+            .github{
+                color: var(--blanco);
+                font-size: 12px;
+            }
+    
+            .linkedin{
+                color: var(--blanco);
+                font-size: 12px;
+            }
+        }
     }
 }
