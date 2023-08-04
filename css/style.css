@@ -1,0 +1,9 @@
+:root{
+    --carbon: #191919;
+}
+* {
+    box-sizing: border-box;
+}
+html{
+    background-color: var(--carbon);
+}
