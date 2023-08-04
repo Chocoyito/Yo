@@ -34,6 +34,11 @@ body{
     display: flex;
 }
 
+.lang{
+    font-size: 10px;
+    font-style: normal;
+}
+
 .about-me{
 
     width: 480px;
