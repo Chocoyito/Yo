@@ -1,0 +1,25 @@
+.margin-none{
+    margin: 0;
+}
+
+/* Margin top */
+
+.mt-1{
+    margin-top: 6px;
+}
+
+.mt-2{
+    margin-top: 12px;
+}
+
+.mt-3{
+    margin-top: 18px;
+}
+
+.mt-4{
+    margin-top: 24px;
+}
+
+.mt-5{
+    margin-top: 30px;
+}

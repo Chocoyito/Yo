@@ -1,9 +1,45 @@
 :root{
     --carbon: #191919;
+    --blanco: #fff;
+    --blanco-grisaceo: #cccccc;
 }
 * {
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 html{
     background-color: var(--carbon);
+}
+
+body{
+    margin: 0;
+}
+
+.container{
+    padding: 70px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.about-me{
+
+    width: 480px;
+
+    & h1{
+        color: var(--blanco);
+        font-size: 36px;
+    }
+
+    & p{
+        color: var(--blanco-grisaceo);
+        font-size: 14px;
+    }
 }
