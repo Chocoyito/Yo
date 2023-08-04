@@ -1,5 +1,6 @@
 :root{
     --carbon: #191919;
+    --gris: #1f1f1f;
     --blanco: #fff;
     --blanco-grisaceo: #cccccc;
 }
@@ -91,5 +92,17 @@ body{
                 font-size: 12px;
             }
         }
+    }
+}
+
+.projects{
+
+    gap: 15px;
+
+    .project{
+        color: var(--blanco);
+        padding: 15px;
+        background-color: var(--gris);
+        height: auto;
     }
 }
