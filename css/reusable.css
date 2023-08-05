@@ -1,3 +1,14 @@
+:root{
+    /* Brand colors */
+    --php: #4f5b93;
+    --kotlin: #7F52FF;
+    --asp: #9400ff;
+    --csharp: #178600;
+    --javascript: #f1e05a;
+    --sql: #e38c00;
+    --firebase: #FFA000;
+}
+
 .margin-none{
     margin: 0;
 }
@@ -24,6 +35,16 @@
     margin-top: 30px;
 }
 
+/* Gap */
+
+.gap-1{
+    gap: 4px;
+}
+
+.gap-2{
+    gap: 8px;
+}
+
 .al-item{
     align-items: center;
 }
@@ -32,4 +53,12 @@
 }
 .j-content{
     justify-content: center;
+}
+
+.php{
+    color: var(--php);
+}
+
+.kotlin{
+    color: var(--kotlin);
 }
