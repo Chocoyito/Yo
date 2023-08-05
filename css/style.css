@@ -1,6 +1,10 @@
 :root{
+    /* Backgrounds */
     --carbon: #191919;
+    --carbon-oscuro: #141414;
     --gris: #1f1f1f;
+
+    /* Fuentes */
     --blanco: #fff;
     --blanco-grisaceo: #cccccc;
 }
@@ -14,6 +18,11 @@ html{
 
 body{
     margin: 0;
+}
+
+.i-stack{
+    font-size: 32px;
+    color: white;
 }
 
 .container{
@@ -42,9 +51,10 @@ body{
 .about-me{
 
     width: 480px;
+    color: var(--blanco);
+
 
     & h1{
-        color: var(--blanco);
         font-size: 36px;
     }
 
@@ -103,11 +113,23 @@ body{
 .projects{
 
     gap: 15px;
+    color: var(--blanco);
 
     .project{
-        color: var(--blanco);
         padding: 15px;
         background-color: var(--gris);
         height: auto;
+    }
+
+    .more-projects{
+        background-color: var(--carbon-oscuro);
+        height: auto;
+
+        & div{
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            height: 30px;
+        }
     }
 }
