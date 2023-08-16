@@ -1,0 +1,31 @@
+{
+    "ES": {
+        "name": "Hola, me llamo Roberto Amador",
+        "about_me": "Actualmente soy estudiante de tercer año en la carrera de Ingeniería en Sistemas de la Información en la Universidad Centroamericana de Nicaragua. Mi interés abarca tanto el desarrollo backend como frontend de aplicaciones web y móviles, aunque en la universidad me he enfocado principalmente en el backend.",
+
+        "stack": "Mi stack",
+
+        "expedoc": "Un proyecto dirigido a la gestion de expedientes de docentes.",
+
+        "gymcheck": "Un proyecto enfocado en la gestion de clientes de gimnasios.",
+
+        "foraneo": "Un proyecto que busca ayudar a jóvenes de diferentes departamentos a hospedarse en la capital.",
+
+        "more_projects": "Más proyectos"
+
+    },
+    "EN": {
+        "name": "Hi, I'm Roberto Amador",
+        "about_me": "I am currently a third-year student in the Information Systems Engineering program at the Central American University of Nicaragua. My interests encompass both backend and frontend development of web and mobile applications, although I have mainly focused on backend development at university.",
+
+        "stack": "My stack",
+
+        "expedoc": "A project focused on the management of teacher records.",
+
+        "gymcheck": "A project centered around the management of gym members/clients.",
+
+        "foraneo": "A project aimed at assisting young individuals from various departments to find accommodation in the capital city.",
+
+        "more_projects": "More projects"
+    }
+}

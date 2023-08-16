@@ -45,12 +45,15 @@
     gap: 8px;
 }
 
+/* Alignments */
 .al-item{
     align-items: center;
 }
 .t-align{
     text-align: center;
 }
+
+
 .j-content{
     justify-content: center;
 }

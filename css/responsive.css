@@ -1,0 +1,8 @@
+@media (max-width: 900px) {
+    .flex-responsive{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+    }
+}
