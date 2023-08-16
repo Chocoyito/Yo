@@ -8,32 +8,25 @@ document.addEventListener("DOMContentLoaded", function () {
         words = data; 
     });
 
-    const languageButton = document.querySelector(".lang");
+    const languageSelect = document.querySelector(".lang");
 
-    languageButton.addEventListener('click', () => {
-        const language = languageButton.textContent === 'ES' ? 'EN' : "ES"; 
-        languageButton.textContent = language;
+    languageSelect.addEventListener('change', () => {
+        const language = languageSelect.value;
+        console.log(language);
         updateContent(language);
     });
     
     function updateContent(language){
-        const name = document.querySelector(".about-me h1");
-        const about_me = document.querySelector(".about-me p");
-        const stack = document.querySelector(".stack h2");
-        const expedoc = document.querySelector(".expedoc .description");
-        const gymcheck = document.querySelector(".gymcheck .description");
-        const foraneo = document.querySelector(".foraneo .description");
-        const projects = document.querySelector(".more-projects p")
-
-
 
         console.log(words);
-        name.textContent = words[language].name;
-        about_me.textContent = words[language].about_me;
-        stack.textContent = words[language].stack;
-        expedoc.textContent = words[language].expedoc;
-        gymcheck.textContent = words[language].gymcheck;
-        foraneo.textContent = words[language].gymcheck;
-        projects.textContent = words[language].more_projects;
+
+        const name = document.querySelector(".about-me h1").textContent = words[language].name;
+        const about_me = document.querySelector(".about-me p").textContent = words[language].about_me;
+        const stack = document.querySelector(".stack h2").textContent = words[language].stack;
+        const curriculum = document.querySelector(".curriculum button").textContent = words[language].resume;
+        const expedoc = document.querySelector(".expedoc .description").textContent = words[language].expedoc;
+        const gymcheck = document.querySelector(".gymcheck .description").textContent = words[language].gymcheck;
+        const foraneo = document.querySelector(".foraneo .description").textContent = words[language].gymcheck;
+        const projects = document.querySelector(".more-projects p").textContent = words[language].more_projects;
     }
 });
