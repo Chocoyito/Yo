@@ -8,10 +8,12 @@
     --blanco: #fff;
     --blanco-grisaceo: #cccccc;
 }
+
 * {
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 html{
     background-color: var(--carbon);
 }
@@ -60,6 +62,12 @@ body{
 
     .my-career{
         height: 170px;
+        margin-bottom: 25px;
+
+    }
+
+    .stack{
+        gap: 15px;
     }
 
     & p{
@@ -116,7 +124,8 @@ body{
         .language{
             height: 14px;
             align-items: center;
-            
+            gap: 5px;
+
             & p{
                 font-size: 12px;
                 color: white;
