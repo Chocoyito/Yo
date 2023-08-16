@@ -5,6 +5,10 @@
 
         "stack": "Mi stack",
 
+        "resume": "Currículum",
+        
+        "language": "Idioma",
+
         "expedoc": "Un proyecto dirigido a la gestion de expedientes de docentes.",
 
         "gymcheck": "Un proyecto enfocado en la gestion de clientes de gimnasios.",
@@ -19,6 +23,11 @@
         "about_me": "I am currently a third-year student in the Information Systems Engineering program at the Central American University of Nicaragua. My interests encompass both backend and frontend development of web and mobile applications, although I have mainly focused on backend development at university.",
 
         "stack": "My stack",
+
+        "resume": "Resume",
+
+        "language": "Language",
+
 
         "expedoc": "A project focused on the management of teacher records.",
 

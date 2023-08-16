@@ -75,16 +75,15 @@ body{
             border: 2px solid white;
             color: white;
             padding: 10px 20px;
-            border-radius: 12px;
+            border-radius: 8px;
             width: 180px;
             font-size: 14px;
             cursor: pointer;
+            transition: transform 0.3s ease-in-out;
         }
        
         & button:hover{
-            background-color: white;
-            color: black;
-            transition: 0.3s;
+            transform: scale(1.05);
         }
     }
 
@@ -99,23 +98,42 @@ body{
         }
 
         .socials{
-
             gap: 20px;
-            
+
             .github{
                 color: var(--blanco);
                 font-size: 12px;
+                text-decoration: none;   
             }
     
             .linkedin{
                 color: var(--blanco);
                 font-size: 12px;
+                text-decoration: none;
             }
         }
 
-        .lang{
-            cursor: pointer;
+        .language{
+            height: 14px;
+            align-items: center;
+            
+            & p{
+                font-size: 12px;
+                color: white;
+            }
+
+            .lang{
+                cursor: pointer;
+                background-color: transparent;
+                color: white;
+    
+                & option{
+                    background-color: var(--carbon);
+                }
+            }
         }
+
+        
     }
 }
 
@@ -133,12 +151,17 @@ body{
     .more-projects{
         background-color: var(--carbon-oscuro);
         height: auto;
-
+        cursor: pointer;
+        transition: transform 0.2s ease-in-out;
         & div{
             justify-content: center;
             align-items: center;
             gap: 8px;
             height: 30px;
         }
+    }
+
+    .more-projects:hover{
+        transform: scale(1.01);
     }
 }
