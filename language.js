@@ -24,6 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const about_me = document.querySelector(".about-me p").textContent = words[language].about_me;
         const stack = document.querySelector(".stack h2").textContent = words[language].stack;
         const curriculum = document.querySelector(".curriculum button").textContent = words[language].resume;
+        const lang = document.querySelector(".language p").textContent = words[language].language;
         const expedoc = document.querySelector(".expedoc .description").textContent = words[language].expedoc;
         const gymcheck = document.querySelector(".gymcheck .description").textContent = words[language].gymcheck;
         const foraneo = document.querySelector(".foraneo .description").textContent = words[language].gymcheck;
