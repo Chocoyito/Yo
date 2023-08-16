@@ -58,8 +58,8 @@ body{
         font-size: 36px;
     }
 
-    & h1 > .lang{
-        cursor: pointer;
+    .my-career{
+        height: 170px;
     }
 
     & p{
@@ -112,6 +112,10 @@ body{
                 font-size: 12px;
             }
         }
+
+        .lang{
+            cursor: pointer;
+        }
     }
 }
 
@@ -123,7 +127,7 @@ body{
     .project{
         padding: 15px;
         background-color: var(--gris);
-        height: auto;
+        height: 135px;
     }
 
     .more-projects{

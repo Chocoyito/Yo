@@ -5,4 +5,12 @@
         justify-content: center;
         gap: 50px;
     }
+
+    .about-me{
+        width: auto;
+    }
+
+    .about-me > .my-career{
+        margin-bottom: 25px;
+    }
 }
